@@ -127,7 +127,7 @@
   transition: all 0.1s ease-in-out;
   height: 100vh;
   transition: all 0.1s ease-in-out;
-  background: url("../website/img/Map.png");
+  background: url("./img/Map.png");
   background-size: cover;
   background-position: center;
 }
@@ -307,25 +307,25 @@
   gap: 20px;
 }
 .projects_projects .project:nth-child(1) .project__img {
-  background-image: url("../website/img/project-1-min.jpg");
+  background-image: url("./img/project-1-min.jpg");
 }
 .projects_projects .project:nth-child(2) .project__img {
-  background-image: url("../website/img/project-2-min.jpg");
+  background-image: url("./img/project-2-min.jpg");
 }
 .projects_projects .project:nth-child(3) .project__img {
-  background-image: url("../website/img/project-3-min.jpg");
+  background-image: url("./img/project-3-min.jpg");
 }
 .projects_projects .project:nth-child(4) .project__img {
-  background-image: url("../website/img/project-4-min.jpg");
+  background-image: url("./img/project-4-min.jpg");
 }
 .projects_projects .project:nth-child(5) .project__img {
-  background-image: url("../website/img/project-5-min.jpg");
+  background-image: url("./img/project-5-min.jpg");
 }
 .projects_projects .project:nth-child(8) .project__img {
-  background-image: url("../website/img/project-6-min.jpg");
+  background-image: url("./img/project-6-min.jpg");
 }
 .projects_projects .project:nth-child(9) .project__img {
-  background-image: url("../website/img/project-7-min.jpg");
+  background-image: url("./img/project-7-min.jpg");
 }
 .projects_projects .project__img {
   height: 400px;
