@@ -1,9 +1,10 @@
-const themeChangerBtn = document.querySelector('.theme-changer');
+const themeBtn = document.querySelector('.theme-changer');
 const contentContainer = document.querySelector('.container');
 
-
-themeChangerBtn.addEventListener('click', () => {
+const toggleDarkTheme = () => {
   contentContainer.classList.toggle('dark-version')
-})
+}
 
+
+themeBtn.addEventListener('click', toggleDarkTheme)
 
