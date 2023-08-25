@@ -1879,7 +1879,7 @@ html {
   position: fixed;
   top: 6rem;
   right: 6rem;
-  z-index: 300;
+  z-index: 9999999;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer;
@@ -1899,8 +1899,8 @@ html {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: linear-gradient(#367848, #58b872);
-  z-index: 100;
+  background-image: linear-gradient(#000e, #000e);
+  z-index: 99999;
 }
 @media only screen and (max-width: 576px) {
   .navigation__background {
@@ -1914,7 +1914,7 @@ html {
   height: 100vh;
   position: fixed;
   top: 0;
-  z-index: 200;
+  z-index: 999999;
   opacity: 0;
   width: 0;
   transition: all 0.5s ease-in-out;
